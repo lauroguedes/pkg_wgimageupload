@@ -1,5 +1,7 @@
 Plugin for ajax image upload to joomla extra field. Project adapted from https://extensions.joomla.org/extension/image-upload-field/
 
+![Demo](gif-demo-wgimageupload.gif)
+
 # Install
 Download or clone the project to your computer, install it in joomla (Extensions / Manage / Install) by sending the `pkg_wgimageupload.zip` file.
 
