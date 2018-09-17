@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+	<name>Fields - Image upload</name>
+	<author>Andy Hickey customized by Lauro W. Guedes</author>
+	<creationDate>August 2018</creationDate>
+	<copyright>Copyright (C) 2018 leowgweb. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>leowgweb@gmail.com</authorEmail>
+	<authorUrl>www.leowgweb.com.br</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_FIELDS_WGIMAGEUPLOAD_DESCRIPTION</description>
+	<files>
+		<filename plugin="wgimageupload">wgimageupload.php</filename>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+		<folder>fields</folder>
+		<folder>assets</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_fields_wgimageupload.ini</language>
+		<language tag="en-GB">language/en-GB.plg_fields_wgimageupload.sys.ini</language>
+		<language tag="pt-BR">language/pt-BR.plg_fields_wgimageupload.ini</language>
+		<language tag="pt-BR">language/pt-BR.plg_fields_wgimageupload.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" priority="2" name="Image Upload Fields Plugin Updates">https://leowgweb.com.br/updates/field_wgimageupload.xml</server>
+	</updateservers>
+</extension>

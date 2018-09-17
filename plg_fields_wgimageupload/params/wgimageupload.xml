@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams" addfieldpath="/plugins/fields/wgimageupload/fields">
+			<field name="destination" 
+			type="folderlist" 
+			default="" 
+			label="PLG_F_WGIMGUP_DESTINATION_FOLDER_LABEL"
+			directory="images" 
+			required="true"
+			filter="" 
+			exclude="" 
+			stripext="" 
+				/>
+				
+			<field name="acceptedformats" type="list" default="jpg" required="true" label="PLG_F_WGIMGUP_IMAGE_FORMAT_LABEL" description="" multiple="true">
+			  <option value="">PLG_F_WGIMGUP_IMAGE_FORMAT_SELECT</option>
+			  <option value="jpg">jpg</option>
+			  <option value="jpeg">jpeg</option>
+			  <option value="png">png</option>
+			  <option value="gif">gif</option>
+			  <option value="bmp">bmp</option>
+			</field>
+			
+			<field 
+				name="maxwidth" 
+				type="number" 
+				default="1920" 
+				label="PLG_F_WGIMGUP_MAX_IMAGE_W_LABEL" 
+				required="true"
+				description=""
+				min="1" 
+				max="3840" />
+				
+			<field 
+				name="minwidth" 
+				type="number" 
+				default="48" 
+				label="PLG_F_WGIMGUP_MIN_IMAGE_W_LABEL" 
+				required="true"
+				description=""
+				min="1" 
+				max="3840" />
+			   
+			<field 
+				name="maxheight" 
+				type="number" 
+				default="1080" 
+				label="PLG_F_WGIMGUP_MAX_IMAGE_H_LABEL" 
+				required="true"
+				description=""
+				min="1" 
+				max="2160" />
+				
+			<field 
+				name="minheight" 
+				type="number" 
+				default="32" 
+				label="PLG_F_WGIMGUP_MIN_IMAGE_H_LABEL" 
+				required="true"
+				description=""
+				min="1" 
+				max="2160" />
+				
+				<field 
+				name="img_filesize" 
+				type="number" 
+				default="500" 
+				label="PLG_F_WGIMGUP_MAX_FILE_SIZE_LABEL"
+				required="true"				
+				description=""
+				min="0" 
+				max="100000" />
+				
+				<field name="filename_format" type="list" default="0" label="PLG_F_WGIMGUP_FILENAME_FORMAT_LABEL" required="true" description="">
+				  <option value="0">PLG_F_WGIMGUP_FILENAME_FORMAT_OP1</option>
+				  <option value="1">PLG_F_WGIMGUP_FILENAME_FORMAT_OP2</option>
+				  <option value="2">PLG_F_WGIMGUP_FILENAME_FORMAT_OP3</option>
+				  <option value="3">PLG_F_WGIMGUP_FILENAME_FORMAT_OP4</option>
+				</field>
+		</fieldset>
+	</fields>
+</form>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="3.0" method="install">
+ <name>WG Image Upload</name>
+ <author>Andy Hickey customized by Lauro W. Guedes</author>
+ <creationDate>Ago 2018</creationDate>
+ <packagename>wgimageupload</packagename>
+ <version>1.0.0</version>
+ <url>https://www.leowgweb.com.br/</url>
+ <packager>leowgweb</packager>
+ <packagerurl>http://www.leowgweb.com.br/</packagerurl>
+ <description>Package containing the field plugin for uploading files direct from the computer and plugin for sending the file with ajax.</description>
+ <update>http://www.leowgweb.com.br/updates/pkg_wgimageupload.xml</update>
+ <files>
+   <file type="plugin" id="wgimageuploader" group="fields">plg_fields_wgimageupload.zip</file>
+   <file type="plugin" id="wgimageuploader" group="ajax">plg_ajax_wgimageupload.zip</file>
+ </files>
+ </extension>

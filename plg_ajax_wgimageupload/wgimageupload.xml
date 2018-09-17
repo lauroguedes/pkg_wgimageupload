@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.7.0"
+           type="plugin"
+           group="ajax"
+           method="upgrade">
+	<name>Ajax - Image upload</name>
+	<version>1.0.0</version>
+	<creationDate>Ago 2018</creationDate>
+	<author>Andy Hickey customized by Lauro W. Guedes</author>
+	<authorEmail>leowgweb@gmail.com</authorEmail>
+	<authorUrl>https://www.leowgweb.com.br</authorUrl>
+	<license>GNU General Public License version 2 or later</license>
+	<copyright>Copyright (C) 2018 leowgweb Ltd. All rights reserved.</copyright>
+	<description>PLG_AJAX_WGIMAGEUPLOAD_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="wgimageupload">wgimageupload.php</filename>
+	</files>
+
+	<updateservers>
+		<server type="extension" priority="2" name="Image Upload Ajax Plugin Updates">https://leowgweb.com.br/updates/ajax_imageupload.xml</server>
+	</updateservers>
+</extension>
